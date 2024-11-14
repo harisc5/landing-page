@@ -33,3 +33,81 @@ html, body, #root {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
+.home-wrapper {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.home-text {
+  text-align: justify;
+  font-size: 20px;
+  
+}
+
+.home-text-wrapper {
+  border: 5px solid #94bbe9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.about-content-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes pulsateText {
+  0% {color: red;}
+  100% {color: black;}
+}
+
+.about-content-wrapper > .text {
+  font-size: 24px;
+  animation: pulsateText 1.2s infinite;
+  max-width: 60%;
+  text-align: justify;
+}
+
+.carousel-wrapper {
+  max-width: 600px;
+  max-height: 500px;
+  margin: auto;
+}
+
+.contact-card {
+  display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    border: 10px solid #94bbe9;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.contact-card > input {
+  margin: 20px;
+  height: 40px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.contact-card  > .message-input {
+  height: 200px;
+}
+
+.send-button {
+  background-color: #94bbe9;
+  color: white;
+  height: 40px;
+  border-style: none;
+  border-radius: 10px;
+  width: 100px;
+  align-self: flex-end;
+}
+
+
+
